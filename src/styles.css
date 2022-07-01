@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid tomato;
+  background-color: lightskyblue;
+  padding: 4rem;
+  gap: 1rem;
+}
+
+#valued,
+#valuem,
+#valueh,
+#values {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
