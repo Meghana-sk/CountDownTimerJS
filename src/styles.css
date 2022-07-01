@@ -2,22 +2,32 @@ body {
   font-family: sans-serif;
 }
 
+#heading {
+  color: gray;
+}
+
 #app {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid tomato;
-  background-color: lightskyblue;
+  box-shadow: rgba(150, 150, 165, 0.25) 0px 6px 12px -2px,
+    rgba(64, 68, 82, 0.3) 0px 3px 7px -3px;
   padding: 4rem;
   gap: 1rem;
+}
+
+.label {
+  color: gray;
 }
 
 #valued,
 #valuem,
 #valueh,
 #values {
-  border: 1px solid gray;
+  color: rgb(68, 63, 63);
   display: flex;
   align-items: center;
   padding: 1rem;
+  box-shadow: rgba(120, 120, 138, 0.25) 0px 6px 12px -2px,
+    rgba(83, 82, 82, 0.3) 0px 3px 7px -3px;
 }

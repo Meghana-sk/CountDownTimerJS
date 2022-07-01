@@ -4,8 +4,6 @@ const hours = document.getElementById("valueh");
 const mins = document.getElementById("valuem");
 const sec = document.getElementById("values");
 
-console.log(days);
-
 function countDownTimer() {
   const lastDate = new Date("July 30, 2022 23:59:00");
   const currentDate = new Date();
